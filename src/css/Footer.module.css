@@ -1,0 +1,11 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 10vh;
+}
+.footer div {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=Footer.module.css.map */

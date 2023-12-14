@@ -1,0 +1,51 @@
+@import '_variables.scss';
+
+.introduction {
+      margin: 2vh auto;
+      max-width: 90%;
+      padding: 20px;
+      background-color: #f8f8f8;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+      h1 {
+            color: #333;
+      }
+
+      p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: #665;
+      }
+
+      h2 {
+            color: #333;
+            margin-top: 20px;
+      }
+
+      ul, ol {
+            padding: 0;
+      }
+
+      li {
+            margin-bottom: 10px;
+      }
+
+      a { 
+            font-weight: bold;
+            color: #0066cc;
+            text-decoration: none;
+       }
+
+       em {
+            font-style: italic;
+            color: #777;
+       }
+
+       b {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #009688;
+       }
+}

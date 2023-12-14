@@ -1,0 +1,41 @@
+.introduction {
+  margin: 2vh auto;
+  max-width: 90%;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.introduction h1 {
+  color: #333;
+}
+.introduction p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #665;
+}
+.introduction h2 {
+  color: #333;
+  margin-top: 20px;
+}
+.introduction ul, .introduction ol {
+  padding: 0;
+}
+.introduction li {
+  margin-bottom: 10px;
+}
+.introduction a {
+  font-weight: bold;
+  color: #0066cc;
+  text-decoration: none;
+}
+.introduction em {
+  font-style: italic;
+  color: #777;
+}
+.introduction b {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #009688;
+}/*# sourceMappingURL=Introduction.module.css.map */
