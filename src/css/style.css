@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root > div {
+  flex: 1;
+}/*# sourceMappingURL=style.css.map */

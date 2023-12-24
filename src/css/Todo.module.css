@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Ubuntu:wght@500&display=swap");
+.todo {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.todo h1 {
+  text-transform: uppercase;
+  font-family: "Rubik Scribble";
+  padding: 20px 0;
+}
+.todo form ul li {
+  display: block;
+  padding: 20px 0;
+  font-family: "Ubuntu";
+  font-size: 1.5em;
+  background-color: yellow;
+}
+.todo form input {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+.todo ul li {
+  list-style-type: none;
+}
+.todo ul li span {
+  padding: 5px;
+}/*# sourceMappingURL=Todo.module.css.map */

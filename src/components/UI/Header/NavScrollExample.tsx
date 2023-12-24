@@ -10,7 +10,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">React + Typescript</Navbar.Brand>
+        <Navbar.Brand href="/">React + Typescript</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,7 +21,7 @@ function NavScrollExample() {
             <Nav.Link href="#action1">Home</Nav.Link>
 
             <NavDropdown title="Projects" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">TODO App</NavDropdown.Item>
+              <NavDropdown.Item href="/todo">TODO App</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Calculator</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Weather</NavDropdown.Item>
             </NavDropdown>

@@ -1,19 +1,22 @@
-import ControlledCarousel from "./components/UI/Home/ControlledCarousel";
 import NavScrollExample from "./components/UI/Header/NavScrollExample";
-import Introduction from "./components/UI/Home/Introduction";
+import Home from "./components/UI/Home/Home";
 import Footer from "./components/UI/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TodoApp from "./components/Todo/TodoApp";
+import './scss/style.scss';
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavScrollExample />
-
-      <Introduction />
-
-      <ControlledCarousel />
+      <Routes>
+        <Route path="/" element={<TodoApp />} />
+        <Route path="/todo" element={<Home />} />
+        
+      </Routes>
 
       <Footer name="Kunegunda Kosek" year={2023} />
-    </div>
+    </Router>
   );
 }
 
