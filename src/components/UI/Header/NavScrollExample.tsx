@@ -10,7 +10,7 @@ function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">React + Typescript</Navbar.Brand>
+        <Navbar.Brand href="/">React + Typescript</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,24 +18,24 @@ function NavScrollExample() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
 
-            <NavDropdown title="Projects" id="navbarScrollingDropdown">
+            <NavDropdown title="Projekty" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/todo">TODO App</NavDropdown.Item>
-              <NavDropdown.Item href="/calculator">Calculator</NavDropdown.Item>
-              <NavDropdown.Item href="weather">Weather</NavDropdown.Item>
+              <NavDropdown.Item href="/calculator">Kalkulator</NavDropdown.Item>
+              <NavDropdown.Item href="/weather">Pogoda</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="#">Contact</Nav.Link>
+            <Nav.Link href="#">Kontakt</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Szukaj"
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success">Szukaj</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
