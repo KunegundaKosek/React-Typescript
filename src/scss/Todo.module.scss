@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Ubuntu:wght@500&display=swap");
+@import "_variables.scss";
+
+.todo {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+
+  h1 {
+    text-transform: uppercase;
+    font-family: "Rubik Scribble";
+    padding: 20px 0;
+  }
+
+  form {
+    ul {
+      li {
+        display: block;
+        padding: 20px 0;
+        font-family: "Ubuntu";
+        font-size: $font-size;
+        background-color: yellow;
+      }
+    }
+
+    input {
+      display: block;
+      margin: 20px auto;
+      width: 70%;
+      border-radius: 5px;
+      height: 50px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    // button {
+    // }
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+
+      // input {
+
+      // }
+
+      span {
+        padding: 5px;
+      }
+    }
+  }
+}

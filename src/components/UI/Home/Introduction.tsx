@@ -1,7 +1,5 @@
 import React from "react";
 import styles from '../../../scss/Introduction.module.scss';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faLinkedin } from "@fortawesome/fontawesome-free-brands";
 
 const Introduction = () => {
   return (

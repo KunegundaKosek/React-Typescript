@@ -21,9 +21,9 @@ function NavScrollExample() {
             <Nav.Link href="#action1">Home</Nav.Link>
 
             <NavDropdown title="Projects" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">TODO App</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Calculator</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Weather</NavDropdown.Item>
+              <NavDropdown.Item href="/todo">TODO App</NavDropdown.Item>
+              <NavDropdown.Item href="/calculator">Calculator</NavDropdown.Item>
+              <NavDropdown.Item href="weather">Weather</NavDropdown.Item>
             </NavDropdown>
 
             <Nav.Link href="#">Contact</Nav.Link>
