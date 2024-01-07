@@ -1,0 +1,33 @@
+.userInput {
+      padding: 1px;
+      max-width: 80%;
+      margin: 2rem auto;
+      border-radius: 15px;
+      background: linear-gradient(180deg, #90ecd576, #88e9c278);
+
+      div {
+            display: flex;
+            justify-content: space-evenly;
+            // gap: 1.5rem;
+            padding: 2rem;
+
+            label {
+                  display: block;
+                  margin-bottom: 0.25rem;
+                  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-size: 0.9rem;
+                  font-weight: bold;
+                  text-transform: uppercase;
+            }
+
+            input {
+                  width: 100%;
+                  padding: 1rem;
+                  border: 2px solid black;
+                  border-radius: .25rem;
+                  background-color: transparent;
+                  color: #c2e930;
+                  // font-feature-settings: 1rem;
+            }
+      }
+}
