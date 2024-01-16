@@ -8,9 +8,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="navbar-dark bg-dark">
       <Container fluid>
-        <Navbar.Brand href="/">React + Typescript</Navbar.Brand>
+        <Navbar.Brand href="/" >React + Typescript</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,15 +18,17 @@ function NavScrollExample() {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/" >Home</Nav.Link>
 
-            <NavDropdown title="Projekty" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/todo">TODO App</NavDropdown.Item>
-              <NavDropdown.Item href="/calculator">Kalkulator</NavDropdown.Item>
+            <NavDropdown title="Projekty" id="navbarScrollingDropdown" >
+              <NavDropdown.Item href="/todo" >TODO App</NavDropdown.Item>
+              <NavDropdown.Item href="/calculator">Kalkulator Inwestycyjny</NavDropdown.Item>
               <NavDropdown.Item href="/weather">Pogoda</NavDropdown.Item>
+              <NavDropdown.Item href="/timer">Timer</NavDropdown.Item>
+
             </NavDropdown>
 
-            <Nav.Link href="#">Kontakt</Nav.Link>
+            <Nav.Link href="#" >Kontakt</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

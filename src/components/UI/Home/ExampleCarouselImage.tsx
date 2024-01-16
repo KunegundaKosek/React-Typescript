@@ -1,17 +1,19 @@
 import React from "react";
-import styles from '../../../scss/Carousel.module.scss';
+import styles from "../../../scss/Carousel.module.scss";
 
 interface ExampleCarouselImageProps {
   text: string;
   img: string;
+  href: string;
 }
 
 const ExampleCarouselImage: React.FC<ExampleCarouselImageProps> = (props) => {
   return (
-    <div className={styles.carouselImgContainer}>
-      <h2>{props.text}</h2>
-      <img src={props.img} alt={props.text} />
-    </div>
+    <a href={props.href}>
+      <div className={styles.carouselImgContainer}>
+        <img src={props.img} alt={props.text} />
+      </div>
+    </a>
   );
 };
 

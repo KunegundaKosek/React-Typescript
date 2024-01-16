@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@600&family=Quicksand:wght@500&display=swap");
+.player {
+  text-align: center;
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: radial-gradient(#0b201d, #021619);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+.player h1 {
+  font-family: "Handjet", monospace;
+  text-align: center;
+  text-transform: uppercase;
+  color: #c1e2dd;
+  text-shadow: 0 0 4px rgba(35, 34, 34, 0.4);
+  font-size: 3.5rem;
+  margin: 0;
+}
+.player h1 em {
+  font-style: normal;
+  color: #00eeff;
+}
+.player h2 {
+  color: #54a399;
+  font-size: 1.5rem;
+}
+.player p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+.player p input {
+  font: inherit;
+  border: 1px solid #54a399;
+  background-color: #192f2b;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 0.25rem;
+  color: #d1f0ec;
+}
+.player p button {
+  cursor: pointer;
+  background-color: #54a399;
+  border: 1px solid #54a399;
+  padding: 0.25rem 1rem;
+  color: #061e1a;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.player p button button:hover {
+  background-color: #3c8379;
+  border-color: #3c8379;
+}/*# sourceMappingURL=Timer.module.css.map */

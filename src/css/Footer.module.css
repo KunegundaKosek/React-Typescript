@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Ubuntu:wght@500&display=swap");
 .footer {
   background-color: #333;
   color: white;
@@ -8,4 +9,9 @@
 .footer div {
   max-width: 1200px;
   margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .footer div {
+    font-size: 0.9rem;
+  }
 }/*# sourceMappingURL=Footer.module.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '../../../scss/Introduction.module.scss';
+import styles from "../../../scss/Introduction.module.scss";
 
 const Introduction = () => {
   return (
@@ -46,7 +46,7 @@ const Introduction = () => {
       <p>Na tej stronie znajdziesz trzy z moich projektów: </p>
       <ol>
         <li>
-          <a href="/">TodoApp: </a>
+          <a href="/todo">TodoApp: </a>
           <em>
             Aplikacja do zarządzania zadaniami, która pozwala na dodawanie,
             usuwanie i oznaczanie zadań jako ukończone.
@@ -54,7 +54,7 @@ const Introduction = () => {
         </li>
 
         <li>
-          <a href="/">Pogoda: </a>
+          <a href="/weather">Pogoda: </a>
           <em>
             Aplikacja wykorzystująca zewnętrzne API do dostarczania informacji o
             aktualnej pogodzie. Pozwala sprawdzić prognozę pogody dla wybranego
@@ -63,12 +63,19 @@ const Introduction = () => {
         </li>
 
         <li>
-          <a href="/">Kalkulator: </a>
+          <a href="/calculator">Kalkulator Inwestycyjny: </a>
           <em>
-            Prosty kalkulator, który umożliwia podstawowe operacje matematyczne.
-            Przydatny do szybkiego obliczania wyników.
+            Kalkulator inwestycyjny to narzędzie, które umożliwia użytkownikowi
+            dokładne oszacowanie potencjalnych zysków i korzyści z inwestycji.
           </em>
         </li>
+
+        {/* <li>
+          <a href="/reactart">Timer: </a>
+          <em>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt dolor recusandae accusamus officiis voluptatum unde obcaecati, libero minima exercitationem maiores quis cumque?
+          </em>
+        </li> */}
       </ol>
 
       <b>
@@ -76,7 +83,6 @@ const Introduction = () => {
         umiejętnościami programistycznymi. Jeśli masz pytania śmiało napisz!
         Dziękuję za odwiedzenie mojej strony.
       </b>
-
     </article>
   );
 };

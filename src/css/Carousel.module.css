@@ -4,4 +4,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+.carouselImgContainer img {
+  width: 100%;
 }/*# sourceMappingURL=Carousel.module.css.map */

@@ -34,21 +34,36 @@
       padding: 10px;
       text-align: center;
     }
-
-    // button {
-    // }
   }
 
   ul {
     li {
       list-style-type: none;
 
-      // input {
-
-      // }
-
       span {
         padding: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .todo {
+    width: 95%;
+
+    h1 {
+      font-size: $small-title-fontSize;
+    }
+    form {
+      font-size: $small-description-fontSize;
+
+      input {
+        width: 95%;
+        height: 40px;
+      }
+
+      button {
+        font-size: $small-description-fontSize;
       }
     }
   }

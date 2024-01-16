@@ -1,12 +1,11 @@
 import React, { useState, ChangeEvent, useCallback } from "react";
 import { API_KEY } from "./config";
 import { WeatherData } from "./interfaces";
-import styles from "../../scss/Weather.module.scss";
+import styles from "../../../scss/Weather.module.scss";
 import axios from 'axios';
 
 const Weather = () => {
   const [city, setCity] = useState<string>("");
-  // const [tmp, setTmp] = useState<number | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [submittedCity, setSubmittedCity] = useState<string | null>(null);
   const [weatherData, setWeatherData] = useState<WeatherData | null>(null);

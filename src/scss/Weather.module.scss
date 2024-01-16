@@ -1,4 +1,4 @@
-@import '_variables.scss';
+@import "_variables.scss";
 
 .weather {
   max-width: 90%;
@@ -39,7 +39,7 @@
       width: 50%;
       box-sizing: border-box;
       border-radius: 15px;
-      border: 4px solid purple;
+      border: 2px solid purple;
     }
 
     button {
@@ -69,10 +69,46 @@
     margin: 20px auto;
     background-color: rgba(255, 204, 221, 0.7);
     padding: 20px 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
+
+    @media screen and (max-width: 1000px) {
+      width: 90%;
+    }
+
     p {
       margin: 10px 0;
       color: black;
+
+
+    }
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .weather {
+    
+
+    form input {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .weather {
+
+    h1 {
+      font-size: $small-title-fontSize;
+    }
+
+    form {
+      label, input, button {
+        font-size: $small-description-fontSize;
+      }
+    }
+    &__div {
+      font-size: $small-description-fontSize;
     }
   }
 }

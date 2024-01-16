@@ -1,0 +1,25 @@
+@import '_variables';
+
+.carousel {
+      h3 {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: black;
+            padding: 10px 0;
+            width: 640px;
+            margin: auto;
+      }
+
+}
+
+@media screen and (max-width: 950px) {
+      .carousel h3 {
+            width: 100%;
+            font-size: 1.2rem;
+      }
+}
+
+@media screen and (max-width: 500px) {
+      .carousel h3 {
+            font-size: $small-subtitle-fontSize;
+      }
+}

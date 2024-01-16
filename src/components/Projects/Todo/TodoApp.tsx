@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AddTodoForm from "./AddTodoForm";
 import TodoList from "./TodoList";
-import styles from "../../scss/Todo.module.scss";
+import styles from "../../../scss/Todo.module.scss";
 
 type Todo = {
   id: number;

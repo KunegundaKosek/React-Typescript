@@ -1,9 +1,12 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import ExampleCarouselImage from "./ExampleCarouselImage";
-import todoImg from "../../../images/todo.jpg";
+import todoImg from "../../../images/todoApp.jpg";
 import calculatorImg from "../../../images/calculator.jpg";
 import weatherImg from "../../../images/weather.jpg";
+import reactArt from "../../../images/reactArt.jpg";
+
+import styles from "../../../scss/ControlledCarousel.module.scss";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState<number>(0);
@@ -13,28 +16,50 @@ function ControlledCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel
+      activeIndex={index}
+      onSelect={handleSelect}
+      className={styles.carousel}
+    >
       <Carousel.Item>
-        <ExampleCarouselImage img={todoImg} text="First slide" />
+        <ExampleCarouselImage
+          img={todoImg}
+          text="Zdjęcie przedstawiające todo list."
+          href="/todo"
+        />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Todo App</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage img={calculatorImg} text="Second slide" />
+        <ExampleCarouselImage
+          img={calculatorImg}
+          text="Zdjęcie przedstawiające kalkulator"
+          href="/calculator"
+        />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Kalkulator Inwestycyjny</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage img={weatherImg} text="Third slide" />
+        <ExampleCarouselImage
+          img={weatherImg}
+          text="Zdjęcie przedstawiające warunki atmosferyczne"
+          href="/weather"
+        />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Pogoda</h3>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <ExampleCarouselImage
+          img={reactArt}
+          text="Zdjęcie przedstawiające artystyczny obraz z kobietą."
+          href="/reactart"
+        />
+        <Carousel.Caption>
+          <h3>ReactArt</h3>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

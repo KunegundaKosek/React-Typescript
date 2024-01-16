@@ -1,0 +1,14 @@
+.header {
+  text-align: center;
+  margin-top: 20px;
+}
+.header img {
+  width: 5rem;
+  height: 5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: transparent;
+}
+.header h1 {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=Header.module.css.map */
